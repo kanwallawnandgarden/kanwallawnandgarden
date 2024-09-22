@@ -1257,9 +1257,8 @@ button {
     ),
     url("../../images/provincialLawn.jpg");
   background-size: 100% 100%;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
   z-index: 2;
   background-colour: green;
 }
@@ -1278,7 +1277,7 @@ button {
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
   background-image: url("../../images/bg.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 1;
 }

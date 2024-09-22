@@ -1256,10 +1256,11 @@ button {
       rgba(19, 21, 25, 0.5)
     ),
     url("../../images/provincialLawn.jpg");
-  background-size: 100%;
-  background-position: center;
+  background-size: contain;
+  background-position: center center;
   background-repeat: no-repeat;
   z-index: 2;
+  background-colour: green;
 }
 
 #bg:after {

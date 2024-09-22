@@ -1256,7 +1256,7 @@ button {
       rgba(19, 21, 25, 0.5)
     ),
     url("../../images/provincialLawn.jpg");
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 2;
@@ -1277,7 +1277,7 @@ button {
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
   background-image: url("../../images/bg.jpg");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
 }
